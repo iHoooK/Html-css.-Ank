@@ -1,0 +1,223 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .col-lg-8.text-right {
+        text-align: left !important;
+    }
+
+    .mainmenu li a {
+        padding: 13px 15px;
+        font-size: 15px;
+    }
+
+    .welcome-text h1 {
+        font-size: 38px;
+    }
+
+    .newsletter-form {
+        width: 100%;
+    }
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .feature-tab-list .nav-tabs .nav-link {
+        line-height: 80px;
+    }
+
+    .feature-content h4 {
+        margin-top: 15px;
+    }
+
+    .client-list {
+        height: auto;
+        margin-top: -40px;
+    }
+
+    .single-pricing-box.active {
+        margin-top: 0;
+    }
+    .footer-logo{
+        text-align: center;
+    }
+    .single-widget{
+        text-align: center;
+    }
+    .single-widget h5 {
+        margin: 15px 0;
+    }
+    h5.tar{
+        text-align: center;
+    }
+    ul.tar{
+        text-align: center;
+    }
+
+    .single-pricing-box {
+        margin: 0px 0;
+    }
+      .pmt {
+        margin-top: 30px;
+    }
+    .blog-content a {
+	font-size: 19px;
+}
+}
+
+
+
+
+
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+    .call-btn {
+        display: none;
+    }
+
+    header.header-top {
+        background: #fff1ed;
+    }
+
+    .right-side .newsletter-form {
+        margin-top: 15px;
+    }
+
+    .sidebar-item {
+        margin-bottom: 50px;
+    }    
+    .about-text h2 {
+    padding-top: 20px;
+    }
+    .height-70{
+        display: none;
+    }
+}
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+    .header-area::after {
+        display: none;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        left: 50% !important;
+        margin-left: -11px;
+    }
+    .mean-bar{
+            right: 9px!important;
+    }
+    .logo {
+        text-align: center;
+    }
+
+    .welcome-text h1 {
+        font-size: 31px;
+    }
+
+    .newsletter-form {
+        width: 100%;
+    }
+    .boxed-btn {
+        padding: 13px 20px;
+    }
+    li.nav-item {
+    width: auto!important;
+    }
+    .feature-tab-list .nav-tabs .nav-link {
+        line-height: 50px;
+        margin: 5px 0;
+    }
+    a.play-btn {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 30px;
+    }
+    .middle-border {
+        display: none;
+    }
+
+    .client-list {
+        height: auto;
+    }
+
+    .single-pricing-box.active {
+        margin-top: 0;
+    }
+
+    .promo-content h2 {
+        font-size: 21px;
+    }
+
+    .bordered-btn {
+        margin-top: 25px;
+    }
+
+    .single-widget h5 {
+        margin: 10px 0;
+    }
+    .footer-logo,.tar,.tal,.single-widget{
+        text-align: center;
+    }
+    .feature-content{
+        padding-top: 20px;
+    }
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .section-title h2{
+        font-size: 24px;
+    }
+    .newsletter-form .boxed-btn {
+	right: 3px;
+	top: 3px;
+    }
+    .boxed-btn {
+	padding: 9px 7px;
+    }
+    .feature-tab-list .nav-tabs .nav-link{
+        width: 60px;
+        height: 60px;
+    }
+    span.nav-link-wrap{        
+        width: 44px;
+        height: 44px;
+        line-height: 44px;
+    }
+    a.nav-link{
+        padding: 6px;
+    }
+    .img-fluid{
+        max-height: 500px;
+    }
+    .alco__rule{
+        display: none;
+    }
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+    body {}
+    
+
+}
